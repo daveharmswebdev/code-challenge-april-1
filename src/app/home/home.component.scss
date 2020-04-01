@@ -1,0 +1,42 @@
+.product-top {
+  background-image: url('../../assets/image-assets/topsection-background.png');
+  .product-card {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    color: white;
+    display: flex;
+    .product-card-pic {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.product-description {
+  background-color: grey;
+  display: flex;
+}
+.product-reviews {
+  background-color: lightblue;
+  .review-header {
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  mat-card {
+    width: 60%;
+    margin: 0 auto 1rem;
+    display: flex;
+    .reviewer-pic {
+      margin-right: 1rem;
+    }
+    .review-content {
+      .tagline {
+        display: flex;
+      }
+    }
+  }
+}

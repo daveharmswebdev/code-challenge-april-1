@@ -1,0 +1,148 @@
+<div class="product-top">
+    <div class="product-card">
+      <div class="product-card-pic">
+        <img src="../../assets/image-assets/tough-mojo-jacket-img1.png" alt="" />
+      </div>
+      <div class="product-card-content">
+        <div class="product-card-content-tagline"><h2>Tough Mojo Jacket</h2></div>
+        <div class="product-card-content-description">
+            <ul>
+                <li *ngFor="let line of descLine">{{line}}</li>
+            </ul>
+        </div>
+        <div class="product-card-content-actions">
+          <div class="row-1">
+            <mat-form-field>
+              <mat-label>Select Size</mat-label>
+              <mat-select> </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Select Color</mat-label>
+              <mat-select> </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="row-2">
+            <mat-form-field class="example-full-width">
+              <mat-label>Quantity</mat-label>
+              <input matInput placeholder="1" value="1" />
+            </mat-form-field>
+            <button mat-button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="product-description">
+  <div class="product-description-picture">
+    <img
+      src="../../assets/image-assets/tough-mojo-jacket-img2.png"
+      alt="jacket-back"
+    />
+  </div>
+  <div class="product-description-content">
+    <div class="paragraph">
+      Meatball pastrami picanha ground round tenderloin fatback salami
+      frankfurter drumstick shank. Chislic turkey landjaeger spare ribs,
+      meatloaf meatball ground round filet mignon biltong buffalo brisket shank
+      tenderloin bresaola ham hock. Kevin burgdoggen pork belly chislic ground
+      round, pork flank leberkas porchetta strip steak. Pancetta pork loin
+      tenderloin tongue cow, leberkas short loin venison landjaeger. Cupim spare
+      ribs leberkas, ball tip brisket turducken tri-tip tongue ham hock. Tongue
+      hamburger tail chicken.
+    </div>
+    <div class="paragraph">
+      Tri-tip picanha tail jowl rump landjaeger beef ribs turducken ground round
+      pig bresaola fatback drumstick venison. Turducken brisket capicola, flank
+      prosciutto cupim tri-tip shoulder pork belly hamburger jowl drumstick
+      short loin porchetta jerky. Tongue alcatra spare ribs, pork belly pork
+      loin strip steak bresaola pork chop andouille t-bone ham hock ball tip
+      kevin. Turducken pastrami tongue hamburger salami flank. Pastrami
+      drumstick leberkas, alcatra turkey burgdoggen strip steak filet mignon
+      short ribs capicola tri-tip t-bone rump shoulder. Beef ribs corned beef
+      sirloin bacon jerky pig drumstick shank turducken jowl capicola biltong.
+    </div>
+    <div class="paragraph">
+      Ham ribeye tri-tip ham hock pork loin biltong frankfurter chuck boudin
+      pork belly ball tip. Kielbasa ground round turducken landjaeger pork,
+      flank strip steak sirloin chicken brisket cupim doner bresaola pork belly.
+      Doner andouille picanha shoulder ham spare ribs frankfurter ribeye pork
+      chop ham hock pork loin hamburger meatball. Ham hock prosciutto porchetta
+      venison corned beef jerky, fatback strip steak shank hamburger swine
+      capicola filet mignon brisket. Biltong pig brisket sirloin pastrami
+      shankle.
+    </div>
+  </div>
+</div>
+<div class="product-reviews">
+  <div class="review-header">
+    <h3>Reviews</h3>
+    <button mat-button (click)="showReviewDialog()">Write a review on this product</button>
+  </div>
+  <mat-card>
+    <div class="reviewer-pic">
+      <img src="../../assets/image-assets/reviewer1.png" alt="Shaun White" />
+      <p>Shaun White</p>
+    </div>
+    <div class="review-content">
+      <div class="tagline">
+        <div class="tag">This Thing is a monster</div>
+        <div class="date">08/20/2013</div>
+        <div class="stars">
+          <span class="material-icons">
+            stars
+          </span>
+          <span class="material-icons">
+            stars
+          </span>
+          <span class="material-icons">
+            stars
+          </span>
+          <span class="material-icons">
+            stars
+          </span>
+        </div>
+      </div>
+      <div class="content">
+        Bacon ipsum dolor amet corned beef jowl alcatra andouille hamburger
+        boudin pancetta bresaola kielbasa. Kevin sirloin salami spare ribs
+        burgdoggen, andouille shank chislic pork loin. Chicken bresaola swine
+        pig, ribeye spare ribs andouille chislic drumstick flank. Doner beef
+        ribs capicola biltong porchetta ham. Pork cupim leberkas picanha bacon
+        tri-tip. Pork belly swine brisket burgdoggen, andouille salami kielbasa
+        shank frankfurter prosciutto pork turducken pastrami beef. Biltong
+        porchetta cupim boudin pork belly drumstick landjaeger spare ribs
+        picanha andouille jerky chuck.
+      </div>
+    </div>
+  </mat-card>
+  <mat-card>
+    <div class="reviewer-pic">
+      <img src="../../assets/image-assets/reviewer2.png" alt="Jennie Loren" />
+      <p>Jennie Loren</p>
+    </div>
+    <div class="review-content">
+      <div class="tagline">
+        <div class="tag">Luv it so much I bought 2!</div>
+        <div class="date">01/12/2013</div>
+        <div class="stars">
+          <span class="material-icons">
+            stars
+          </span>
+          <span class="material-icons">
+            stars
+          </span>
+          <span class="material-icons">
+            stars
+          </span>
+        </div>
+      </div>
+      <div class="content">
+        Rump strip steak swine pork chop fatback, ground round cupim. Chuck
+        corned beef jowl prosciutto t-bone chislic, flank biltong hamburger
+        turducken. Sirloin pastrami beef meatball. Biltong leberkas sausage
+        corned beef chislic, rump kielbasa flank kevin chuck turducken turkey
+        alcatra ham.
+      </div>
+    </div>
+  </mat-card>
+</div>

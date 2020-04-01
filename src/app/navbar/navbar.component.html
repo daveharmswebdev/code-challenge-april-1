@@ -1,0 +1,44 @@
+<nav>
+  <div class="top">
+    <div class="logo">
+      <img src="../../assets/image-assets/axiom-logo-main.png" alt="">
+    </div>
+    <div class="search-bar">
+      <input />
+      <div class="social-media-menu"></div>
+    </div>
+  </div>
+  <mat-toolbar>
+    <button mat-button [matMenuTriggerFor]="camping">Camping</button>
+    <div>|</div>
+    <mat-menu #camping="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+    <button mat-button [matMenuTriggerFor]="clothing">Clothing</button>
+    <div>|</div>
+    <mat-menu #clothing="matMenu">
+      <button mat-menu-item>Outerwear</button>
+      <button mat-menu-item>Hiking Shoes / Boots</button>
+      <button mat-menu-item>Gloves</button>
+      <button mat-menu-item>Hats</button>
+    </mat-menu>
+    <button mat-button [matMenuTriggerFor]="fishing">Fishing</button>
+    <div>|</div>
+    <mat-menu #fishing="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+    <button mat-button [matMenuTriggerFor]="hiking">Hiking</button>
+    <div>|</div>
+    <mat-menu #hiking="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+    <button mat-button [matMenuTriggerFor]="biking">Biking</button>
+    <mat-menu #biking="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+  </mat-toolbar>
+</nav>

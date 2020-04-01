@@ -1,0 +1,11 @@
+footer {
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .body {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
