@@ -1,5 +1,6 @@
+$assets-images-path: './assets/image-assets';
 .product-top {
-  background-image: url('../../assets/image-assets/topsection-background.png');
+  background: url('../../assets/image-assets/topsection-background.png');
   .product-card {
     width: 60%;
     margin: 0 auto;
